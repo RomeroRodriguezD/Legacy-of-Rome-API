@@ -4,7 +4,6 @@ from sqlalchemy.orm import sessionmaker
 from database.models import RomanModel
 from sqlalchemy.sql.expression import func
 import json
-from stop import SECRET
 
 app = Flask(__name__)
 
